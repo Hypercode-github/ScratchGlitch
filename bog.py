@@ -15,7 +15,7 @@ driver.get("https://scratch.mit.edu")
 
 for i in range(1, 200000):
     time.sleep(1)
-    driver.get('https://scratch.mit.edu/projects/327885643/')
+    driver.get('https://scratch.mit.edu/projects/327885643/') #link to project
 
     time.sleep(x)
     startflag = driver.find_element_by_class_name('green-flag_green-flag_1kiAo')
